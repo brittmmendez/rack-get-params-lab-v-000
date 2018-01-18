@@ -51,7 +51,7 @@ class Application
       @@cart.each do |item|
       return "#{item}\n"
       end
-    end  
+    end
   end
 
 end
