@@ -17,7 +17,7 @@ class Application
 
     elsif req.path.match(/cart/)
       run_cart
-      
+
 
     elsif req.path.match(/add/)
 
