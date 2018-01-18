@@ -49,7 +49,7 @@ class Application
       return "Your cart is empty"
     else
       @@cart.each do |item|
-      return "#{item}\n"
+      return "#{item}"
       end
     end
   end
