@@ -16,7 +16,7 @@ class Application
       resp.write handle_search(search_term)
 
     elsif req.path.match(/cart/)
-      run_cart
+    resp.write run_cart
 
 
     elsif req.path.match(/add/)
